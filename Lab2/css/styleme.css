@@ -1,0 +1,28 @@
+body{
+    background-color: #595647;
+    color:#F0F0E8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2{
+    color:#9AC2F4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    border-color:#A5A196;
+}
+#moods_pics img{
+    border: 1px solid #A5A196;
+}
+a:link{
+    color:#BE2003;
+}
+a:visited{
+    color:#BE2003;
+}
+#logo_w3c_html{
+   background-image: url("../images/468-4689122_calidad-y-w3c-html-5-clipart.png");
+   background-position-y: -300px;
+   background-position-x: 100px ;
+   width: 300px;
+   height: 300px;
+}
