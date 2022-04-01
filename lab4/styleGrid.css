@@ -52,7 +52,6 @@ body{
     gap:15px;
     display:  grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: start;
 }
 #footer{
     padding: 15px;
