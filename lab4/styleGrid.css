@@ -1,0 +1,89 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#container{
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+    border: 2px solid #A2CBBC;
+}
+#header{
+    background-color: #A2CBBC;
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: center;
+    padding-left: 15px;
+    column-gap: 15px;
+}
+#header :first-child{
+    font-weight: bold;
+    font-size: 16px;
+}
+#main{
+
+}
+#footer{
+    margin: 1px;
+    background-color: #E3E3E3;
+}
+
+#container_form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    margin: 20px;
+}
+#container_form label{
+    font-weight: bold;
+}
+#container_form span{
+    text-decoration: underline;
+}
+#form_left{
+ /*    background-color: aqua; */
+    width: 100%;
+    gap:15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#form_right{
+   /*  background-color: aquamarine; */
+    width: 100%;
+    height: fit-content;
+    gap:15px;
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+}
+#footer{
+    padding: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns:2fr;
+    padding-left: 15px;
+}
+
+
+input[type="reset"],input[type="submit"] {
+    background-color: #7AA897;
+    border: none;
+     padding: 5px 15px;
+ /*    margin: 3px; */
+    color: white;
+    width: 100px;
+}
+input[type="reset"]:hover,input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="text"],input[type="email"],select{
+    border: 1px solid #BDBDBD;
+    height: 25px;
+}
+textarea{
+    border: 1px solid #BDBDBD;
+    height: 100px;
+}
+.mandatory{
+    color: red;
+    text-decoration: none !important;
+}
